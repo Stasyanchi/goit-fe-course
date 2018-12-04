@@ -1,0 +1,97 @@
+html{
+    box-sizing:border-box;
+    }
+    
+    *,
+    *::before,
+    *::after{
+    box-sizing: inherit;
+    }
+
+.parent{
+    margin-top: 40px;
+    margin-left: 40px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #212121;
+}
+
+.child1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #2ea2f3;
+}
+
+.child2{
+    position: absolute;
+    left:150px;
+    width: 100px;
+    height: 100px;
+    background-color: #199586;
+}
+
+.child3{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #e62365;
+}
+
+.child4{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #f1483d;
+}
+
+.child5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: #fc5b2d;
+}
+
+.child6{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #9b12ae;
+}
+
+.child7{
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #4db051;
+
+}
+
+.child8{
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    background-color: #fcef41;
+}
+
+.child9{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #398ef2;
+}

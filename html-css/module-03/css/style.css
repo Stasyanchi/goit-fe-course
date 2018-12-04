@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto");
+
+
+.body {
+  margin: 0;
+  font-size: 0;
+}
+
+.wrapper{
+  
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.single{
+  margin-bottom: 40px;
+  }
+
+.menu {
+    text-align: center;
+  }
+
+.menu-item {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+  .menu-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 30px;
+}
+
+  .menu-link:hover {
+    color: #03f9f3;
+}
+
+
+/* ------------------------- */
+.pitblock {
+  margin: 0px;
+}
+
+.visually-hidden:not(:focus):not(:active), input[type="checkbox"].visually-hidden, input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  }
+
+.title{
+  font-size: 0px;
+}
+
+.box {
+  width: 420px;
+  display: inline-block;
+  margin: 0;
+  font-size: 14px;
+  margin-right: 50px;
+  margin-bottom: 135px;
+  font-family: "Playfair Display", serif;
+}
+
+.foto {
+  display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+.box:nth-child(even){
+  margin-right: 0;
+}
+
+.foto {
+  margin-bottom: 30px;
+}
+
+
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.more{
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.text {
+  margin-bottom: more;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+.box:nth-last-child(-n + 2) {
+  margin-bottom: 0;}
+
+/* ------------------------ */
+
+.btn {
+  margin: 0 auto;
+  width: 15%;
+  padding: auto;
+  margin-top: 40px;
+  display: block;
+  
+  line-height: 70px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+
+.btn a {
+  text-decoration: none;
+ color: black;
+}
+
+.btn a:link {
+  color: #0000d0;
+  padding: 2px; 
+ }
+.btn a:hover {
+  background: #786b59;
+  color: #ffe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */ */

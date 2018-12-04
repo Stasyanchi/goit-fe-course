@@ -1,0 +1,56 @@
+.body{
+    font-size: 0;
+}
+
+.menu{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.auto-menu{
+    list-style: none;
+
+}
+
+.auto{
+    width: auto;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.vehicle{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.vehicle:link {
+    color: #0000d0;
+    padding: 2px;
+   }
+
+.vehicle:hover {
+    background: #eed602;
+    color: rgba(0, 225, 255, 0.952);
+   }
+
+.auto:nth-child(-n+3){
+    color: #0E1116;
+    background-color: #88292F;
+}
+
+.auto:nth-child(n+4){
+    color: #0E1116;
+    background-color: #5DB7DE;
+
+}
+
+.auto:nth-child(n+7){
+    color: #0E1116;
+    background-color: #0D5D56;
+}
+
+
+

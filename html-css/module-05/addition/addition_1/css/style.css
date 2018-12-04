@@ -1,0 +1,23 @@
+html{
+    box-sizing:border-box;
+    }
+    
+    *,
+    *::before,
+    *::after{
+    box-sizing: inherit;
+    }
+
+.wrapper{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/Jellyfish.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

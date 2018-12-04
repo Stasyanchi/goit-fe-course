@@ -1,0 +1,60 @@
+html{
+    box-sizing:border-box;
+    }
+    
+    *,
+    *::before,
+    *::after{
+    box-sizing: inherit;
+    }
+
+    body{
+        font-size: 28px;
+    }
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: yellow;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.menu > .menu-item{
+    padding: 60px;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.menu-sub{
+    position: absolute;
+    display: none;
+}
+
+.sub:hover .menu-sub{
+    display: block;
+
+}
+
+.sub::before{
+    content: "V";
+    color: red;
+}
+
+.sub::after{
+    content: "V";
+    color: red;
+}
+
+
+
+/* .menu-sub > .menu-item{
+    display: block;
+} */

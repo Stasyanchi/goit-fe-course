@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto");
+
+body{
+    padding-top: 15px;
+    background-color: rgb(104, 240, 77);
+
+}
+
+div{
+    border: 10px solid yellow;
+    border-radius: 5px;
+    background-color: blue;
+    width: 900px;
+    height: 50%;
+    margin: 0 auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+li{
+    list-style: none;
+    border: 2px solid red;
+    width: 100px;
+    height: 40px;
+    padding-top: 30px;
+    margin-right: 35px;
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: brown;
+}
+
+a:link {
+    color: #0000d0;
+    padding: 10px;
+}
+
+a:hover {
+    background: #ff0000;
+    color: rgb(229, 255, 0);
+}
