@@ -1,0 +1,46 @@
+/* WisdomScriptAJ */
+@font-face {
+  font-family: "WisdomScriptAJ";
+  src: url("../fonts/WisdomScriptAJ.woff") format("woff");
+  src: local("WisdomScriptAJ");
+  /* font-family: 'WisdomScriptAJ' !important; */
+}
+
+/* averia-serif-libre-italic - latin */
+@font-face {
+  font-family: "Averia Serif Libre";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/averia-serif-libre-v7-latin-italic\(Droid\).woff")
+    format("woff");
+  src: local("Averia Serif Libre Italic"), local("AveriaSerifLibre-Italic");
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v12-latin-regular.woff') format('woff');
+    src: local('Montserrat Regular'), local('Montserrat-Regular');
+  }
+
+/* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-slab-v7-latin-regular.woff') format('woff');
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular');
+  }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
