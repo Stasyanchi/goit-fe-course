@@ -1,25 +1,22 @@
-html {
-  box-sizing: border-box;
-}
+html {box-sizing: border-box;}
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 *::after {
   margin: 0;
   padding: 0;
 }
-/* .body{
-  width: 1200px;
-  margin: 0 auto;
-} */
+
 .wrapper {
   width: 1200px;
   margin: 0 auto;
   padding-top: 50px;
-
 }
+
 .logo {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 30px;
@@ -33,14 +30,14 @@ html {
   -ms-transition: color 200ms linear;
   -o-transition: color 200ms linear;
 }
-.logo:hover {
-  color: #f38181;
-}
+
+.logo:hover {color: #f38181;}
+
+.popup {margin-bottom: 128px;}
 
 .page_header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 128px;
 }
 
 .menu {
@@ -72,8 +69,6 @@ html {
   margin-top: 12px;
 }
 
-
-
 .menu_link:hover::after {
   content: "";
   display: block;
@@ -89,13 +84,8 @@ html {
   -webkit-transition: all 300ms linear;
   cursor: pointer;
 }
-.menu_link:hover {
-  color: #f38181;
-}
-/* .wrapper {
-  margin: 0 auto;
-  padding-bottom: 128px;
-} */
+
+.menu_link:hover {color: #f38181;}
 
 .section-header {
   font-family: "Kaushan Script", cursive;
@@ -125,9 +115,7 @@ html {
   margin-top: 45px;
 }
 
-.visually-hidden{
-  padding-bottom: 150px;
-}
+.visually-hidden {padding-bottom: 150px;}
 
 .short_title {
   font-family: "Montserrat Regular", sans-serif;
@@ -150,11 +138,9 @@ html {
   padding-left: 60px;
 }
 
-.wrap:nth-last-child(n + 4) {
-  margin-bottom: 96px;
-}
+.wrap:nth-last-child(n + 4) {margin-bottom: 96px;}
 
-.icon_box::after{
+.icon_box::after {
   position: absolute;
   display: inline-block;
   content: " ";
@@ -162,37 +148,35 @@ html {
   height: 33px;
 }
 
-.icon_1{
+.icon_1 {
   background-image: url(../img/icon/icon_1.png);
   background-repeat: no-repeat;
 }
 
-.icon_2{
+.icon_2 {
   background-image: url(../img/icon/icon_2.png);
   background-repeat: no-repeat;
 }
 
-.icon_3{
+.icon_3 {
   background-image: url(../img/icon/icon_3.png);
   background-repeat: no-repeat;
 }
 
-.icon_4{
+.icon_4 {
   background-image: url(../img/icon/icon_4.png);
   background-repeat: no-repeat;
 }
 
-.icon_5{
+.icon_5 {
   background-image: url(../img/icon/icon_5.png);
   background-repeat: no-repeat;
 }
 
-.icon_6{
+.icon_6 {
   background-image: url(../img/icon/icon_6.png);
   background-repeat: no-repeat;
 }
-
-
 
 .info {
   font-family: "Roboto Regular", sans-serif;
@@ -201,9 +185,7 @@ html {
   line-height: 24px;
 }
 
-.wrapper_main_section{
-  margin-bottom: 98px;
-}
+.wrapper_main_section {margin-bottom: 98px;}
 
 .information {
   font-family: "Roboto Regular", sans-serif;
@@ -229,7 +211,6 @@ html {
   -o-transition: transform 0.2s linear;
 }
 
-
 .txt_name {
   font-family: "Montserrat Regular", sans-serif;
   text-transform: uppercase;
@@ -249,7 +230,6 @@ html {
 .card {
   position: relative;
   width: 381px;
-
 }
 
 .icon_social {
@@ -273,13 +253,10 @@ html {
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
 }
-.box:hover {
-  background-color: #95e1d3;
-}
 
-.screens{
-  position: relative;
-}
+.box:hover {background-color: #95e1d3;}
+
+.screens {position: relative;}
 
 .overlay {
   position: absolute;
@@ -287,7 +264,11 @@ html {
   justify-content: center;
   width: 100%;
   height: 470px;
-  background: linear-gradient( to bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100% );
+  background: linear-gradient(
+    to bottom,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
   z-index: 1;
   box-shadow: rgba(149, 225, 211, 0.4);
   -webkit-box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
@@ -301,11 +282,9 @@ html {
   -ms-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
 }
-.card:hover .overlay {
-  opacity: 1;
 
+.card:hover .overlay {opacity: 1;}
 
-}
 .card_name {
   font-family: "Montserrat Regular", sans-serif;
   text-transform: uppercase;
@@ -329,9 +308,7 @@ html {
   justify-content: space-between;
 }
 
-
-
-.overlay:hover{
+.overlay:hover {
   transform: translate(-10px, -10px);
   -webkit-transform: translate(-10px, -10px);
   -moz-transform: translate(-10px, -10px);
@@ -344,9 +321,9 @@ html {
   -o-transition: all 300ms linear;
 }
 
-.screens:hover .image{
-  transform:translate(-10px, -10px);
-  }
+.screens:hover .image {
+  transform: translate(-10px, -10px);
+}
 
 .footer {
   display: flex;
@@ -372,9 +349,7 @@ html {
   text-decoration: none;
 }
 
-.link_footer:hover {
-  color: #f38181;
-}
+.link_footer:hover {color: #f38181;}
 
 .footer_wrapper {
   margin: 0 auto;
@@ -407,6 +382,4 @@ html {
   -o-transition: all 300ms linear;
   cursor: pointer;
 }
-.btn:hover {
-  background-color: #95e1d3;
-}
+.btn:hover {background-color: #95e1d3;}
