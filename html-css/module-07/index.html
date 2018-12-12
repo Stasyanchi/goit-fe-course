@@ -10,8 +10,85 @@
       integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4="
       crossorigin="anonymous"
     />
-    
-    <title>Golden</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Golden Page</title>
   </head>
-  <body></body>
+  <body>
+    <header class="wrapper popup">
+      <nav class="page_header">
+        <a class="logo" href="#">Golden</a>
+        <ul class="menu">
+          <li class="menu_item"><a class="menu_link" href="#">home</a></li>
+          <li class="menu_item"><a class="menu_link" href="#">services</a></li>
+          <li class="menu_item"><a class="menu_link" href="#">portfolio</a></li>
+          <li class="menu_item"><a class="menu_link" href="#">about</a></li>
+          <li class="menu_item"><a class="menu_link" href="#">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="wrapper main">
+      <section class="main_section wrapper">
+        <h2 class="section-header">SERVICES</h2>
+        <p class="text">Proin iaculis purus consequat sem cure.</p>
+        <ul class="icon_box">
+          <li class="wrap icon_1">
+            <h3 class="short_title">E-Commerce</h3>
+            <p class="info">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="wrap icon_2">
+            <h3 class="short_title">Responsive Web</h3>
+            <p class="info">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="wrap icon_3">
+            <h3 class="short_title">Web Security</h3>
+            <p class="info">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="form-group wrapper">
+        <h2 class="section-header footer">CONTACT US</h2>
+        <p class="text">Proin iaculis purus consequat sem cure.</p>
+        <form class="form cf">
+          <div class="half left cf">
+            <input type="text" name="name" required="required" id="input-name" placeholder="YOUR NAME*" />
+            <input type="email" name="email" required="required" id="input-email" placeholder="YOUR E-MAIL*" />
+            <input type="text" name="subject" id="input-subject" placeholder="SUBJECT" />
+          </div>
+          <div class="half right cf">
+            <textarea
+              name="message"
+              required="required"
+              type="text"
+              id="input-message"
+              placeholder="YOUR MASSAGE*"
+            ></textarea>
+          </div>
+          <input  type="submit" value="SEND MESSAGE" id="input-submit" class="input-submit"/>
+        </form>
+        <!--
+          <div class="form">
+            <form class="description" action="#" method="post">
+              <input type="email" name="YOUR E-MAIL" id="" placeholder ="YOUR E-MAIL">
+            </form>
+            <form class="info" action="#" method="post">
+                <input type = "text" placeholder = "YOUR MESSAGE"></p>
+            </form>
+          </div>
+        -->
+        <!-- <a class="btn" href="#">SEND MESSAGE</a> -->
+      </section>
+    </main>
+  </body>
 </html>
