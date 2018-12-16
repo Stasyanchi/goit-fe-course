@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="wrapper popup">
-      <nav class="page_header">
+      <nav class="headader">
         <a class="logo" href="#">Golden</a>
         <ul class="menu">
           <li class="menu_item"><a class="menu_link" href="#">home</a></li>
@@ -57,38 +57,28 @@
           </li>
         </ul>
       </section>
-      <section class="form-group wrapper">
+      <div class="wrapper">
+      <section class="form-group">
         <h2 class="section-header footer">CONTACT US</h2>
         <p class="text">Proin iaculis purus consequat sem cure.</p>
-        <form class="form cf">
+        <form class="profile-form cf">
           <div class="half left cf">
-            <input type="text" name="name" required="required" id="input-name" placeholder="YOUR NAME*" />
-            <input type="email" name="email" required="required" id="input-email" placeholder="YOUR E-MAIL*" />
+            <input type="text" name="name" required id="input-name" placeholder="YOUR NAME*" autofocus />
+            <input type="email" name="email" required id="input-email" placeholder="YOUR E-MAIL*" />
             <input type="text" name="subject" id="input-subject" placeholder="SUBJECT" />
           </div>
           <div class="half right cf">
             <textarea
               name="message"
-              required="required"
-              type="text"
+              required
               id="input-message"
               placeholder="YOUR MASSAGE*"
-            ></textarea>
-          </div>
-          <input  type="submit" value="SEND MESSAGE" id="input-submit" class="input-submit"/>
+              ></textarea>
+            </div>
+          <button type="submit" id="submit" name="submit">SEND MESSAGE</button> 
         </form>
-        <!--
-          <div class="form">
-            <form class="description" action="#" method="post">
-              <input type="email" name="YOUR E-MAIL" id="" placeholder ="YOUR E-MAIL">
-            </form>
-            <form class="info" action="#" method="post">
-                <input type = "text" placeholder = "YOUR MESSAGE"></p>
-            </form>
-          </div>
-        -->
-        <!-- <a class="btn" href="#">SEND MESSAGE</a> -->
       </section>
+    </div>
     </main>
   </body>
 </html>
