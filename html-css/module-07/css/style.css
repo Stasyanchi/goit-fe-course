@@ -250,8 +250,6 @@ html {
 input,
 textarea {
   margin: 0 auto;
-  border: 0;
-  outline: 0;
   padding: 14px;
   display: block;
   width: 100%;
@@ -266,17 +264,25 @@ textarea {
   -o-border-radius: 3px;
 }
 
-.profile-form input[name="name"]:valid,
-.profile-form input[name="email"]:valid,
-.profile-form textarea[name="message"]:valid {
-  color: green;
+.profile-form input[name="name"]::placeholder,
+.profile-form textarea[name="message"]::placeholder,
+.profile-form input[type="email"]::placeholder {
+  color: red;
 }
+
+
 
 .profile-form input[name="name"]:invalid,
 .profile-form input[name="email"]:invalid,
 .profile-form textarea[name="message"]:invalid {
-  color: red;
+  outline-color: red;
 }
+.profile-form input[name="name"]:valid,
+.profile-form input[name="email"]:valid,
+.profile-form textarea[name="message"]:valid {
+  outline-color: green;
+}
+
 
 button {
   color: white;
