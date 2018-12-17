@@ -156,6 +156,12 @@ html {
   font-weight: bold;
   text-align: center;
   line-height: 75px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.section-header::after{
+  color: #fff;
 }
 
 .text {
@@ -187,28 +193,34 @@ html {
 }
 
 .wrap {
+  position: relative;
   width: 290px;
   height: auto;
-  background-position: top;
   padding-top: 60px;
 }
 
-.wrap::after {
+.wrap::before {
+  position: absolute;
+  display: inline-block;
+  top: -20px;
+  left: 110px;
+  content: " ";
   width: 75px;
   height: 75px;
+  background-position: center;
 }
 
-.icon_1 {
+.icon_1::before {
   background-image: url(../icons/icon-basket.png);
   background-repeat: no-repeat;
 }
 
-.icon_2 {
+.icon_2::before {
   background-image: url(../icons/icon-laptop.png);
   background-repeat: no-repeat;
 }
 
-.icon_3 {
+.icon_3::before {
   background-image: url(../icons/icon-locked.png);
   background-repeat: no-repeat;
 }
@@ -222,7 +234,7 @@ html {
 }
 
 .main_section {
-  margin-bottom: 150px;
+  padding-bottom: 150px;
 }
 
 /*----------- СЕКЦИЯ ОБРАТНОЙ СВЯЗИ ----------*/
@@ -233,9 +245,8 @@ html {
   background: url("../img/map-image.jpg") center/cover no-repeat;
 }
 
-.footer {
-  color: #fff;
-  padding-top: 80px;
+.contact_subtitle {
+  color: #ffffff;
 }
 
 .profile-form {
@@ -253,7 +264,6 @@ textarea {
   padding: 14px;
   display: block;
   width: 100%;
-  margin-bottom: 30px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   resize: none;
@@ -264,6 +274,10 @@ textarea {
   -o-border-radius: 3px;
 }
 
+.profile-form input:not(:nth-last-child(1)) {
+  margin-bottom: 30px;
+}
+
 .profile-form input[name="name"]::placeholder,
 .profile-form textarea[name="message"]::placeholder,
 .profile-form input[type="email"]::placeholder {
@@ -272,14 +286,12 @@ textarea {
 
 
 
-.profile-form input[name="name"]:invalid,
-.profile-form input[name="email"]:invalid,
-.profile-form textarea[name="message"]:invalid {
+.profile-form input[required]:invalid,
+.profile-form textarea[required]:invalid  {
   outline-color: red;
 }
-.profile-form input[name="name"]:valid,
-.profile-form input[name="email"]:valid,
-.profile-form textarea[name="message"]:valid {
+.profile-form input[required]:valid,
+.profile-form textarea[required]:valid  {
   outline-color: green;
 }
 
@@ -312,7 +324,7 @@ button:hover {
 
 textarea {
   width: 100%;
-  min-height: 192px;
+  min-height: 205px;
   border-radius: 3px;
   resize: none;
   -webkit-border-radius: 3px;
@@ -324,6 +336,7 @@ textarea {
 .half {
   float: left;
   width: 48%;
+  margin-bottom: 30px;
 }
 
 .right {
@@ -334,7 +347,7 @@ textarea {
   margin-right: 2%;
 }
 
-.cf:before,
+/* .cf:before,
 .cf:after {
   content: "";
   display: table;
@@ -342,4 +355,4 @@ textarea {
 
 .cf:after {
   clear: both;
-}
+} */

@@ -148,7 +148,7 @@ html {box-sizing: border-box;}
   height: 33px;
 }
 
-.icon_1 {
+.icon_1::before {
   background-image: url(../img/icon/icon_1.png);
   background-repeat: no-repeat;
 }
