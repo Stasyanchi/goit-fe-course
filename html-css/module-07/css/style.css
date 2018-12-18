@@ -86,7 +86,7 @@ html {
   width: 1400px;
 }
 
-.wrapper {
+.main {
   width: 940px;
   margin: 0 auto;
 }
@@ -109,6 +109,7 @@ html {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  margin-bottom: 80px;
 }
 
 .menu {
@@ -156,11 +157,10 @@ html {
   font-weight: bold;
   text-align: center;
   line-height: 75px;
-  padding-top: 80px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.section-header::after{
+.section-header::after {
   color: #fff;
 }
 
@@ -188,7 +188,6 @@ html {
 
 .icon_box {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -196,18 +195,15 @@ html {
   position: relative;
   width: 290px;
   height: auto;
-  padding-top: 60px;
 }
 
 .wrap::before {
-  position: absolute;
-  display: inline-block;
-  top: -20px;
-  left: 110px;
+  display: block;
   content: " ";
   width: 75px;
   height: 75px;
   background-position: center;
+  margin: 0 auto;
 }
 
 .icon_1::before {
@@ -240,9 +236,9 @@ html {
 /*----------- СЕКЦИЯ ОБРАТНОЙ СВЯЗИ ----------*/
 
 .form-group {
-  width: 960px;
   background-color: #222222;
   background: url("../img/map-image.jpg") center/cover no-repeat;
+  padding-bottom: 50px;
 }
 
 .contact_subtitle {
@@ -253,7 +249,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 600px;
   text-align: center;
   margin: 0 auto;
 }
@@ -284,17 +279,14 @@ textarea {
   color: red;
 }
 
-
-
 .profile-form input[required]:invalid,
-.profile-form textarea[required]:invalid  {
+.profile-form textarea[required]:invalid {
   outline-color: red;
 }
 .profile-form input[required]:valid,
-.profile-form textarea[required]:valid  {
+.profile-form textarea[required]:valid {
   outline-color: green;
 }
-
 
 button {
   color: white;
@@ -346,13 +338,3 @@ textarea {
 .left {
   margin-right: 2%;
 }
-
-/* .cf:before,
-.cf:after {
-  content: "";
-  display: table;
-}
-
-.cf:after {
-  clear: both;
-} */
