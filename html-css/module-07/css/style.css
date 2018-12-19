@@ -86,7 +86,7 @@ html {
   width: 1400px;
 }
 
-.main {
+.wrapper {
   width: 940px;
   margin: 0 auto;
 }
@@ -105,11 +105,12 @@ html {
   -o-transition: color 200ms linear;
 }
 
+.page-header{margin-bottom: 80px;}
+
 .headader {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 80px;
 }
 
 .menu {
@@ -276,16 +277,16 @@ textarea {
 .profile-form input[name="name"]::placeholder,
 .profile-form textarea[name="message"]::placeholder,
 .profile-form input[type="email"]::placeholder {
-  color: red;
+  color: #ff0000;
 }
 
 .profile-form input[required]:invalid,
 .profile-form textarea[required]:invalid {
-  outline-color: red;
+  outline-color: 2px solid #ff0000;
 }
 .profile-form input[required]:valid,
 .profile-form textarea[required]:valid {
-  outline-color: green;
+  outline-color: 2px solid #00ff00;
 }
 
 button {
