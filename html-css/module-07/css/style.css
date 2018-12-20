@@ -282,11 +282,11 @@ textarea {
 
 .profile-form input[required]:invalid,
 .profile-form textarea[required]:invalid {
-  outline-color: 2px solid #ff0000;
+  outline: 2px solid #ff0000;
 }
 .profile-form input[required]:valid,
 .profile-form textarea[required]:valid {
-  outline-color: 2px solid #00ff00;
+  outline: 2px solid #00ff00;
 }
 
 button {
