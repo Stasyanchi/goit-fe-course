@@ -1,15 +1,70 @@
 
-@media screen and (min-width: 748px){
+@media screen and (min-width: 749px){
     .wrapper{
          width: 748px;
-         margin: 0 auto;
+         
     }
     .page_header{
          background-color: #ffffff;
-         background-size: 100%;
+         /* background-size: 100%; */
          background: url(../img/Rectangle-1.jpg) center/cover no-repeat;
-         height: 540px;
+         height: 700px;
          margin-bottom: 70px;
     }
-    
+    .logo_menu{
+        height: 200px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .logo{
+        padding-top: 20px;
+        /* display: block; */
+    }
+    .info{ 
+        margin: 0 auto;
+        width: 69%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 52px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.2;
+        padding-bottom: 20px;
+   }
+   .text{
+       width: 100%;
+       padding-bottom: 30px;
+   }
+    .profile{
+        margin: 0 auto;
+        width: 492px;
+        height: 500px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .profile_item{
+        width: 240px;
+    }
+    .subtitle{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .wrapper{width: 942px;}
+
+    .info{
+        width: 65%;
+    }
+
+    .profile{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-flow: nowrap;
+    }
 }
