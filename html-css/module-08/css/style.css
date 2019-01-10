@@ -78,7 +78,6 @@
      display: flex;
      justify-content: center;
      text-align: center;
-     padding-top: 20px;
      margin-bottom: 100px;
 }
 
@@ -118,9 +117,9 @@
      font-size: 20px;
      color: #fff;
 }
+.logo_menu{margin-bottom: 35px;}
 
 .info{
-     padding-top: 35px;
      text-align: center;
      text-transform: uppercase;
      color: #fff;
@@ -145,9 +144,17 @@
      margin-bottom: 20px;
 }
 
-.btn{
+
+.button{
      display: block;
-     max-width: 280px;
+     font-family: 'Montserrat', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 40px;
+     text-decoration: none;
+     color: #fff;
+     min-width: 280px;
      text-align: center;
      background-color: #ff4e50;
      margin: 0 auto;
@@ -159,7 +166,7 @@
      -o-border-radius: 30px;
 }
 
-.btn:hover {
+.button:hover {
      background-color: transparent;
      border: 3px solid #fff;
      border-radius: 30px;
@@ -171,13 +178,7 @@
 }
 
 .btn_link {
-     font-family: 'Montserrat', sans-serif;
-     font-style: normal;
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 40px;
-     color: #fff;
-     text-decoration: none;
+
 }
 
 .subtitle{
@@ -256,6 +257,10 @@
      color: #333333;
 }
 
+.profile_item:nth-last-child(-n + 1) {
+     margin-bottom: 0;
+   }
+
 .description{
      font-family: 'Roboto', sans-serif;
      font-style: normal;
@@ -269,36 +274,26 @@
 }
 
 .primary{
-     display: block;
      color: #ff4e50;
-     text-align: center;
      background-color: transparent;
      border: 3px solid #ff4e50;
-     border-radius: 30px;
-     -webkit-border-radius: 30px;
-     -moz-border-radius: 30px;
-     -ms-border-radius: 30px;
-     -o-border-radius: 30px;
-}
-
-.primary:hover{
-     color: #fff;
-     background-color: #ff4e50;
-     border: 3px solid #ff4e50;
-     border-radius: 30px;
-     -webkit-border-radius: 30px;
-     -moz-border-radius: 30px;
-     -ms-border-radius: 30px;
-     -o-border-radius: 30px;
-     cursor: pointer;
 }
 
 .select{
      background-color: transparent;
      color: #ff4e50;
 }
+.primary:hover {
+     color: #fff;
+     background-color: #ff4e50;
+     border: 2px solid #ff4e50;
+   }
+
 
 .persona{
      padding-top: 70px;
      padding-bottom: 40px;
+}
+.profile{
+     margin-bottom: 23px;
 }
