@@ -34,10 +34,11 @@
        margin-bottom: 30px;
    }
     .profile{
-        margin: 0 auto;
-        width: 492px;
         display: flex;
-        flex-flow: column wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 492px;
+        margin: 0 auto;
     }
     .profile_item{
         width: 240px;
