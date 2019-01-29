@@ -1,4 +1,6 @@
-html {box-sizing: border-box;}
+html {
+  box-sizing: border-box;
+}
 
 *,
 *::before,
@@ -17,21 +19,34 @@ html {box-sizing: border-box;}
   padding-top: 50px;
 }
 
-.headerer{
-  background-image: url(../img/eagle1.jpg);
+.link {
+  display: block;
+  text-decoration: none;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* PAGE-HEADER */
+
+.page-header {
+  background-image: url("../img/eagle1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   min-height: 1000px;
 }
 
-.header_title{
+.header_title {
   text-align: center;
   font-family: "Kaushan Script", cursive;
   font-size: 72px;
   color: #fff;
   margin-bottom: 30px;
 }
-.header_subtitle{
+.header_subtitle {
   display: block;
   margin: 0 auto;
   color: #fff;
@@ -44,7 +59,7 @@ html {box-sizing: border-box;}
   margin-bottom: 80px;
 }
 
-.header_button{
+.page-header__button {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -60,17 +75,15 @@ html {box-sizing: border-box;}
   padding: 0 30px;
 }
 
-.far{
-  color: #fff;
-}
-
-.header_button:hover{
+.page-header__button:hover {
   cursor: pointer;
   color: #f5e28e;
   border: 5px solid #f5e28e;
 }
 
-.logo {
+/* LOGO */
+
+.site-logo {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -84,34 +97,34 @@ html {box-sizing: border-box;}
   -o-transition: color 200ms linear;
 }
 
-.logo:hover {color: #f5e28e;}
+.site-logo:hover {
+  color: #f5e28e;
+}
 
-.popup {margin-bottom: 128px;}
-
-.page_header {
+/* NAVIGATION */
+.page-nav {
   display: flex;
   justify-content: space-between;
 }
 
-.menu {
+.page-nav__site-navigation {
   min-width: 491px;
-  margin: 0;
-  padding: 0;
+}
+
+.site-navigation {
   display: flex;
   justify-content: space-between;
 }
 
-.menu_link {
-  display: block;
+.site-navigation__link {
   font-family: "Montserrat Regular", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  text-decoration: none;
   color: #fff;
   transition: color 200ms linear;
 }
 
-.menu_link::after {
+.site-navigation__link::after {
   color: #f38181;
   content: "";
   display: block;
@@ -122,7 +135,7 @@ html {box-sizing: border-box;}
   margin-top: 12px;
 }
 
-.menu_link:hover::after {
+.site-navigation__link:hover::after {
   content: "";
   display: block;
   width: auto;
@@ -138,9 +151,23 @@ html {box-sizing: border-box;}
   cursor: pointer;
 }
 
-.menu_link:hover {color: #f5e28e;}
+.menu_link:hover {
+  color: #f5e28e;
+}
 
-.section-header {
+.section {
+  margin-bottom: 150px;
+}
+
+.section__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* SOCIALS */
+
+.page-main__title {
   font-family: "Kaushan Script", cursive;
   font-size: 24px;
   text-align: center;
@@ -148,7 +175,7 @@ html {box-sizing: border-box;}
   margin-bottom: 25px;
 }
 
-.text {
+.page-main__subtitle {
   font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -158,7 +185,7 @@ html {box-sizing: border-box;}
   margin-bottom: 65px;
 }
 
-.text::after {
+.page-main__subtitle::after {
   content: "";
   display: block;
   width: 60px;
@@ -168,9 +195,8 @@ html {box-sizing: border-box;}
   margin-top: 45px;
 }
 
-.visually-hidden {padding-bottom: 150px;}
 
-.short_title {
+.page-main__item-title {
   font-family: "Montserrat Regular", sans-serif;
   font-size: 14px;
   color: #333333;
@@ -178,22 +204,22 @@ html {box-sizing: border-box;}
   padding-bottom: 15px;
 }
 
-.icon_box {
+.page-main__list {
   min-height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  list-style: none;
 }
 
-.wrap {
+.page-main__item {
   width: 370px;
   height: auto;
   padding-left: 60px;
 }
 
-.wrap:nth-last-child(n + 4) {margin-bottom: 96px;}
+.page-main__item:nth-last-child(n + 4) {
+  margin-bottom: 96px;
+}
 
-.icon_box::after {
+.page-main__icon::after {
   position: absolute;
   display: inline-block;
   content: " ";
@@ -201,44 +227,48 @@ html {box-sizing: border-box;}
   height: 33px;
 }
 
-.icon_1 {
+.page-main__icon--icon_1 {
   background-image: url(../img/icon/icon_1.png);
   background-repeat: no-repeat;
 }
 
-.icon_2 {
+.page-main__icon--icon_2 {
   background-image: url(../img/icon/icon_2.png);
   background-repeat: no-repeat;
 }
 
-.icon_3 {
+.page-main__icon--icon_3 {
   background-image: url(../img/icon/icon_3.png);
   background-repeat: no-repeat;
 }
 
-.icon_4 {
+.page-main__icon--icon_4 {
   background-image: url(../img/icon/icon_4.png);
   background-repeat: no-repeat;
 }
 
-.icon_5 {
+.page-main__icon--icon_5 {
   background-image: url(../img/icon/icon_5.png);
   background-repeat: no-repeat;
 }
 
-.icon_6 {
+.page-main__icon--icon_6 {
   background-image: url(../img/icon/icon_6.png);
   background-repeat: no-repeat;
 }
 
-.info {
+.page-main__item-text {
   font-family: "Roboto Regular", sans-serif;
   font-size: 15px;
   color: #999999;
   line-height: 24px;
 }
 
-.wrapper_main_section {margin-bottom: 98px;}
+.page-main {
+  margin-bottom: 98px;
+}
+
+/* TEAM */
 
 .information {
   font-family: "Roboto Regular", sans-serif;
@@ -255,7 +285,7 @@ html {box-sizing: border-box;}
   text-align: center;
 }
 
-.image {
+.team__item-img {
   margin-bottom: 30px;
   transition: transform 0.2s linear;
   -webkit-transition: transform 0.2s linear;
@@ -272,7 +302,7 @@ html {box-sizing: border-box;}
   padding-bottom: 20px;
 }
 
-.txt_quality {
+.team__item-about {
   font-family: "Roboto Light Italic", sans-serif;
   font-size: 15px;
   color: #999999;
@@ -280,20 +310,19 @@ html {box-sizing: border-box;}
   font-style: italic;
 }
 
-.card {
+.team__item {
   position: relative;
   width: 381px;
 }
 
-.icon_social {
-  width: 226px;
+.socials__item {
   height: 470px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  list-style: none;
 }
 
-.box {
+.socials__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -307,9 +336,21 @@ html {box-sizing: border-box;}
   -webkit-transition: all 0.2s linear;
 }
 
-.box:hover {background-color: #95e1d3;}
+.socials__item .socials__icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  fill: #d98080;
+}
 
-.screens {position: relative;}
+.socials__link:hover {
+  background-color: #95e1d3;
+}
+
+.team__list {
+  list-style: none;
+  position: relative;
+}
 
 .overlay {
   position: absolute;
@@ -336,9 +377,11 @@ html {box-sizing: border-box;}
   -o-transition: all 0.2s linear;
 }
 
-.card:hover .overlay {opacity: 1;}
+.team__item:hover .overlay {
+  opacity: 1;
+}
 
-.card_name {
+.team__item-name {
   font-family: "Montserrat Regular", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
@@ -347,18 +390,13 @@ html {box-sizing: border-box;}
   text-align: center;
 }
 
-.card_quality {
+.team__item-about {
   font-family: "Roboto Light Italic", sans-serif;
   font-size: 15px;
   color: #999999;
   line-height: 24px;
   font-style: italic;
   text-align: center;
-}
-
-.group {
-  display: flex;
-  justify-content: space-between;
 }
 
 .overlay:hover {
@@ -374,19 +412,18 @@ html {box-sizing: border-box;}
   -o-transition: all 300ms linear;
 }
 
-.screens:hover .image {
+.team__list:hover .team__item-img {
   transform: translate(-10px, -10px);
 }
 
-.footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+/* PAGE-FOOTER */
+
+.page-footer {
   border-top: 1px solid #e5e5e5;
   padding-top: 10px;
 }
 
-.text_footer {
+.page-footer__about {
   font-family: "Montserrat Regular", sans-serif;
   font-size: 14px;
   color: #333333;
@@ -397,21 +434,22 @@ html {box-sizing: border-box;}
   -o-transition: all 300ms linear;
 }
 
-.link_footer {
+.page-footer__link {
   display: inline-block;
   text-decoration: none;
 }
 
-.link_footer:hover {color: #f38181;}
+.page-footer__link:hover {
+  color: #f38181;
+}
 
-.footer_wrapper {
-  margin: 0 auto;
+.page-footer__container{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.search {
+.page-footer__search {
   font-family: "Roboto Light Italic", sans-serif;
   font-style: italic;
   font-size: 15px;
@@ -419,12 +457,15 @@ html {box-sizing: border-box;}
   height: 40px;
 }
 
-.btn {
+.page-footer__button{
   font-family: "Montserrat Bold", sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
   background-color: #1abc9c;
   width: 150px;
   height: 40px;
@@ -434,5 +475,19 @@ html {box-sizing: border-box;}
   -ms-transition: all 300ms linear;
   -o-transition: all 300ms linear;
   cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
-.btn:hover {background-color: #95e1d3;}
+.page-footer__button:hover {
+  background-color: #95e1d3;
+}
+
+/* MEDIA */
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .headerer {
+    background-image: url("../img/eagle1@2x.jpg");
+  }
+}
