@@ -39,14 +39,13 @@ html {
   min-height: 1000px;
 }
 
-.header_title {
+.header__title {
   text-align: center;
   font-family: "Kaushan Script", cursive;
   font-size: 72px;
   color: #fff;
-  margin-bottom: 30px;
 }
-.header_subtitle {
+.header__subtitle {
   display: block;
   margin: 0 auto;
   color: #fff;
@@ -59,7 +58,7 @@ html {
   margin-bottom: 80px;
 }
 
-.page-header__button {
+.page-header__link {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -71,11 +70,11 @@ html {
   font-family: "Montserrat-Bold", sans-serif;
   font-weight: 700;
   color: #fff;
-  line-height: 2.5;
-  padding: 0 30px;
+  line-height: 2;
+  max-width: 140px;
 }
 
-.page-header__button:hover {
+.page-header__link:hover {
   cursor: pointer;
   color: #f5e28e;
   border: 5px solid #f5e28e;
@@ -155,9 +154,9 @@ html {
   color: #f5e28e;
 }
 
-.section {
+/* .section {
   margin-bottom: 150px;
-}
+} */
 
 .section__list {
   display: flex;
@@ -172,7 +171,6 @@ html {
   font-size: 24px;
   text-align: center;
   color: #333333;
-  margin-bottom: 25px;
 }
 
 .page-main__subtitle {
@@ -182,7 +180,6 @@ html {
   font-size: 30px;
   color: #333333;
   font-weight: bold;
-  margin-bottom: 65px;
 }
 
 .page-main__subtitle::after {
@@ -195,13 +192,11 @@ html {
   margin-top: 45px;
 }
 
-
 .page-main__item-title {
   font-family: "Montserrat Regular", sans-serif;
   font-size: 14px;
   color: #333333;
   text-transform: uppercase;
-  padding-bottom: 15px;
 }
 
 .page-main__list {
@@ -264,9 +259,9 @@ html {
   line-height: 24px;
 }
 
-.page-main {
+/* .page-main {
   margin-bottom: 98px;
-}
+} */
 
 /* TEAM */
 
@@ -276,7 +271,7 @@ html {
   color: #999999;
   line-height: 24px;
   text-align: center;
-  margin-bottom: 92px;
+  /* margin-bottom: 92px; */
 }
 
 .form {
@@ -316,8 +311,9 @@ html {
 }
 
 .socials__item {
-  height: 470px;
+  width: 223px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
 }
@@ -344,7 +340,7 @@ html {
 }
 
 .socials__link:hover {
-  background-color: #95e1d3;
+  background-color: #fff;
 }
 
 .team__list {
@@ -386,7 +382,6 @@ html {
   text-transform: uppercase;
   font-size: 14px;
   color: #333333;
-  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -487,7 +482,7 @@ html {
 /* MEDIA */
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .headerer {
+  .page-header {
     background-image: url("../img/eagle1@2x.jpg");
   }
 }
