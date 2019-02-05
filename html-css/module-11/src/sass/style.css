@@ -162,8 +162,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
 }
 
 /* SOCIALS */
@@ -418,7 +416,6 @@ html {
 .page-footer {
   border-top: 1px solid #e5e5e5;
   padding-top: 10px;
-  margin: auto;
 }
 
 .page-footer__about {
