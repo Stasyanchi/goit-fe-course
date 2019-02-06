@@ -33,7 +33,7 @@ html {
 /* PAGE-HEADER */
 
 .page-header {
-  background-image: url("../img/eagle1.jpg");
+  background-image: url("../images/eagle1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   min-height: 1000px;
@@ -45,6 +45,7 @@ html {
   font-size: 72px;
   color: #fff;
 }
+
 .header__subtitle {
   display: block;
   margin: 0 auto;
@@ -223,32 +224,32 @@ html {
 }
 
 .page-main__icon--icon_1 {
-  background-image: url(../img/icon/icon_1.png);
+  background-image: url(../images/icons/icon_1.png);
   background-repeat: no-repeat;
 }
 
 .page-main__icon--icon_2 {
-  background-image: url(../img/icon/icon_2.png);
+  background-image: url(../images/icons/icon_2.png);
   background-repeat: no-repeat;
 }
 
 .page-main__icon--icon_3 {
-  background-image: url(../img/icon/icon_3.png);
+  background-image: url(../images/icons/icon_3.png);
   background-repeat: no-repeat;
 }
 
 .page-main__icon--icon_4 {
-  background-image: url(../img/icon/icon_4.png);
+  background-image: url(../images/icons/icon_4.png);
   background-repeat: no-repeat;
 }
 
 .page-main__icon--icon_5 {
-  background-image: url(../img/icon/icon_5.png);
+  background-image: url(../images/icons/icon_5.png);
   background-repeat: no-repeat;
 }
 
 .page-main__icon--icon_6 {
-  background-image: url(../img/icon/icon_6.png);
+  background-image: url(../images/icons/icon_6.png);
   background-repeat: no-repeat;
 }
 
@@ -271,7 +272,6 @@ html {
   color: #999999;
   line-height: 24px;
   text-align: center;
-  /* margin-bottom: 92px; */
 }
 
 .form {
@@ -475,6 +475,7 @@ html {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
+
 .page-footer__button:hover {
   background-color: #95e1d3;
 }
@@ -483,6 +484,6 @@ html {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .page-header {
-    background-image: url("../img/eagle1@2x.jpg");
+    background-image: url("../images/eagle1@2x.jpg");
   }
 }
