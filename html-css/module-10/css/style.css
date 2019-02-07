@@ -44,6 +44,8 @@ html {
   font-family: "Kaushan Script", cursive;
   font-size: 72px;
   color: #fff;
+  margin: 0;
+  margin-bottom: 30px;
 }
 .header__subtitle {
   margin: 0 auto;
@@ -172,6 +174,7 @@ html {
   font-size: 24px;
   text-align: center;
   color: #333333;
+  margin: 0;
   margin-bottom: 40px;
 }
 
@@ -182,6 +185,7 @@ html {
   font-size: 30px;
   color: #333333;
   font-weight: bold;
+  margin: 0;
   margin-bottom: 50px;
 }
 
@@ -200,6 +204,7 @@ html {
   font-size: 14px;
   color: #333333;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .page-main__list {
@@ -260,6 +265,7 @@ html {
   font-size: 15px;
   color: #999999;
   line-height: 24px;
+  margin: 0;
 }
 
 .page-main {
@@ -274,6 +280,7 @@ html {
   color: #999999;
   line-height: 24px;
   text-align: center;
+  margin: 0;
   margin-bottom: 92px;
 }
 
@@ -386,6 +393,8 @@ html {
   font-size: 14px;
   color: #333333;
   text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .team__item-about {
@@ -395,6 +404,7 @@ html {
   line-height: 24px;
   font-style: italic;
   text-align: center;
+  margin: 0;
 }
 
 .overlay:hover {
