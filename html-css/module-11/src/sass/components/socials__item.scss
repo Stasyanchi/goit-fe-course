@@ -1,0 +1,14 @@
+.socials__item {
+  width: 223px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.socials__item .socials__icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  fill: $seventh-tx-color;
+}

@@ -1,0 +1,49 @@
+.page-main__item {
+  width: 370px;
+  height: auto;
+  padding-left: 60px;
+  position: relative;
+}
+
+.page-main__item:nth-last-child(n + 4) {
+  margin-bottom: 96px;
+}
+
+
+.page-main__icon::after {
+  position: absolute;
+  display: inline-block;
+  content: " ";
+  width: 33px;
+  height: 33px;
+}
+
+.page-main__icon--icon_1 {
+  background-image: url(../../images/icons/icon_1.png);
+  background-repeat: no-repeat;
+}
+
+.page-main__icon--icon_2 {
+  background-image: url(../../images/icons/icon_2.png);
+  background-repeat: no-repeat;
+}
+
+.page-main__icon--icon_3 {
+  background-image: url(../../images/icons/icon_3.png);
+  background-repeat: no-repeat;
+}
+
+.page-main__icon--icon_4 {
+  background-image: url(../../images/icons/icon_4.png);
+  background-repeat: no-repeat;
+}
+
+.page-main__icon--icon_5 {
+  background-image: url(../../images/icons/icon_5.png);
+  background-repeat: no-repeat;
+}
+
+.page-main__icon--icon_6 {
+  background-image: url(../../images/icons/icon_6.png);
+  background-repeat: no-repeat;
+}

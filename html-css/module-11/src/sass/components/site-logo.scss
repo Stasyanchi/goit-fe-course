@@ -1,0 +1,17 @@
+.site-logo {
+  font-family: $main-font-stack;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  color: $secondary-tx-color;
+  transition: color 200ms linear;
+  -webkit-transition: color 200ms linear;
+  -moz-transition: color 200ms linear;
+  -ms-transition: color 200ms linear;
+  -o-transition: color 200ms linear;
+
+  &:hover {
+    color: $third-tx-color;
+  }
+}

@@ -1,0 +1,17 @@
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 56px;
+  background-color: #fce38a;
+  transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
+.socials__link:hover {
+  background-color: secondary-tx-color;
+}

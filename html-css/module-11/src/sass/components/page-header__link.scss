@@ -1,0 +1,21 @@
+.page-header__link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 5px solid $secondary-tx-color;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: $main-font-stack;
+  font-weight: 700;
+  color: $secondary-tx-color;
+  line-height: 2;
+  max-width: 140px;
+
+  &:hover {
+    cursor: pointer;
+    color: $third-tx-color;
+    border: 5px solid $third-tx-color;
+  }
+}

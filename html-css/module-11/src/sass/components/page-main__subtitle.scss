@@ -1,0 +1,20 @@
+.page-main__subtitle {
+  font-family: $main-font-stack;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  color: $fived-tx-color;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 50px;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
+    margin-top: 45px;
+  }
+}

@@ -1,0 +1,8 @@
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+
+  &__site-navigation {
+    min-width: 491px;
+  }
+}

@@ -1,0 +1,35 @@
+.page-footer__search {
+  font-family: $footer-tx-color;
+  font-style: italic;
+  font-size: 15px;
+  width: 230px;
+  height: 40px;
+}
+
+.page-footer__button {
+  font-family: $main-font-stack;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $secondary-tx-color;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  background-color: $ninth-tx-color;
+  width: 150px;
+  height: 40px;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.page-footer__button:hover {
+  background-color: $tenth-tx-color;
+}

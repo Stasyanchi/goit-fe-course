@@ -1,0 +1,19 @@
+.page-footer__about {
+  font-family: $name-font-stack;
+  font-size: 14px;
+  color: $fived-tx-color;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+}
+
+.page-footer__link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.page-footer__link:hover {
+  color: $fourd-tx-color;
+}
